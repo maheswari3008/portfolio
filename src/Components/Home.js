@@ -5,6 +5,7 @@ import './../assets'
 import { homeImage } from './../assets'
 import './Home.css'
 import Typewriter from 'typewriter-effect';
+
 const Home = () => {
   return (
     <div className='flex p-[20px] md:px-20 justify-between flex-col md:flex-row'>
@@ -25,7 +26,10 @@ const Home = () => {
           <div>
             <h1 className='my-5 text-gray-400'>I am Maheswari Ravi and currently I am a Software Developer</h1>
           </div>
-          <button class="hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-purple-600 p-2 rounded-md text-white">Resume</button>
+          <a href="https://aquamarine-ethelyn-70.tiiny.site/" target="_blank">
+            <button className="hover:z-50 transition-all duration-300 ease-in-out 
+            hover:scale-125 bg-purple-600 p-2 rounded-md text-white">Resume</button>
+          </a>  
         </div>
       </div>
       <div className=' w-full flex justify-center'>

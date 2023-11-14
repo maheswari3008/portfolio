@@ -1,7 +1,5 @@
-import { aflacLogo, android, angular, cookiesLogo,
-     facebook, firebase, instagram, ionic, linkdin, mysql,
-      nodejs,
-      react, typescript, praxioLogo, wiuLogo, youtube } from "../assets"
+import {cookiesLogo, facebook, instagram, linkdin, nodejs, antd,
+      react, typescript, praxioLogo, javascript, youtube, tailwind } from "../assets"
 
 export const AppText={
     hello:'Hello,',
@@ -47,10 +45,6 @@ export const AppText={
 export const skillsList=[
     {
         id:1,
-        icon:angular
-    },
-    {
-        id:1,
         icon:react
     },
     {
@@ -59,67 +53,42 @@ export const skillsList=[
     },
     {
         id:1,
-        icon:firebase
+        icon:tailwind
     },
     {
-        id:1,
-        icon:android
+        id:2,
+        icon:antd
     },
+    
     {
-        id:1,
-        icon:ionic
-    },
-    {
-        id:1,
-        icon:mysql
-    },
-    {
-        id:1,
+        id:2,
         icon:react
     },
+    
     {
-        id:1,
-        icon:typescript
+        id:2,
+        icon:javascript
     },
-    {
-        id:1,
-        icon:firebase
-    },
-    {
-        id:1,
-        icon:android
-    },
-    {
-        id:1,
-        icon:nodejs
-    },
+    
+    // {
+    //     id:1,
+    //     icon:nodejs
+    // },
 
 ]
 
 export const workDetail=[
     { 
         id:1,
+        year:'2022',
+        compnayName:'Praxio IT Consulting Pvt Ltd',
+        position:'Frontend Developer'
+    },
+    { 
+        id:2,
         year:'2021',
-        compnayName:'Wells Fargo',
-        position:'Lead Software Developer'
-    },
-    { 
-        id:1,
-        year:'2020',
-        compnayName:'Empowered Benefits',
-        position:'Full Stack Developer'
-    },
-    { 
-        id:1,
-        year:'2018',
-        compnayName:'Western Illionois University',
-        position:'Full Stack Developer'
-    },
-    { 
-        id:1,
-        year:'2016',
-        compnayName:'Cognizant',
-        position:'Programmer Analyst'
+        compnayName:'Cookies Technologies',
+        position:'Junior Frontend Developer' 
     },
 ]
 

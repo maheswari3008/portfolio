@@ -15,7 +15,7 @@ const Skills = () => {
           <div className='grid grid-cols-4 md:grid-cols-4 gap-8  items-center'>
             {skillsList.map((item, index)=>(
                 <div className='w-[60px] transition ease-in-out delay-100 hover:scale-125 bg-purple-50
-                 p-3 rounded-full' >
+                 p-3 rounded-full' key={index}>
                     <img src={item.icon} 
                     className="w-[60px]"/>
                 </div>

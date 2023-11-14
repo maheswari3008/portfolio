@@ -25,14 +25,9 @@ import youtube from './youtube.png'
 import instagram from './Instagram.png'
 import facebook from './Facebook.png'
 import linkdin from './LinkedIn.png'
-
-
-
-
-
-
-
-
+import tailwind from './tailwind.png'
+import antd from './antd.png'
+import javascript from './javascript.png'
 
 export {
     logo,cookiesLogo,praxioLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
@@ -50,4 +45,7 @@ export {
     react,
     wave,
     robo,
+    tailwind,
+    antd,
+    javascript
 }
