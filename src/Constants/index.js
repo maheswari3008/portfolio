@@ -115,7 +115,7 @@ export const portfolio=[
         title:'Furniture App',
         type:'mobile',
         // desc:"App Build using javascript and compaitable for Android and IOS",
-        imageUrl:"https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png",
+        imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVUSl7_VOLnGiazw2zKmxxMg6F2Dz5PsX38otgTXnU5a6l5bXiVoHfdeznHhxGEq4P1Ik&usqp=CAU",
         websiteUrl: "https://maheswari3008.github.io/e-com-furniture/",
     },
     // {
