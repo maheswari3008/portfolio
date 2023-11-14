@@ -1,5 +1,5 @@
-import {cookiesLogo, facebook, instagram, linkdin, nodejs, antd,
-      react, typescript, praxioLogo, javascript, youtube, tailwind } from "../assets"
+import {cookiesLogo, facebook, instagram, linkdin, nodejs, antd, vite, bootstrap,
+      react, typescript, praxioLogo, javascript, youtube, tailwind, next } from "../assets"
 
 export const AppText={
     hello:'Hello,',
@@ -53,27 +53,29 @@ export const skillsList=[
     },
     {
         id:1,
-        icon:tailwind
+        icon:next
     },
     {
         id:2,
-        icon:antd
+        icon:vite
     },
-    
-    {
-        id:2,
-        icon:react
-    },
-    
     {
         id:2,
         icon:javascript
     },
     
-    // {
-    //     id:1,
-    //     icon:nodejs
-    // },
+    {
+        id:1,
+        icon:tailwind
+    },
+    {
+        id:1,
+        icon:antd
+    },
+    {
+        id:1,
+        icon:bootstrap
+    },
 
 ]
 
@@ -95,34 +97,34 @@ export const workDetail=[
 export const portfolio=[
     {
         id:1,
-        title:'Food Delivery UI/UX',
+        title:'Food Delivery App',
         type:'ui/ux',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300"
+        // desc:"App Build using React and compaitable for Android and IOS",
+        imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300",
+        websiteUrl: "https://master--glowing-sherbet-115203.netlify.app/"
     },
-    {
-        id:4,
-        title:'Funny Website',
-        type:'website',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
-    },
+    // {
+    //     id:4,
+    //     title:'Funny Website',
+    //     type:'website',
+    //     desc:"App Build using React native and compaitable for Android and IOS",
+    //     imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
+    // },
     {
         id:2,
-        title:'Business Listing App',
+        title:'Furniture App',
         type:'mobile',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png"
+        // desc:"App Build using javascript and compaitable for Android and IOS",
+        imageUrl:"https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png",
+        websiteUrl: "https://maheswari3008.github.io/e-com-furniture/",
     },
-    {
-        id:3,
-        title:'Food Delivery UI/UX',
-        type:'ui/ux',
-        desc:"App Build using React native and compaitable for Android and IOS",
-        imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png"
-    },
-
-    
+    // {
+    //     id:3,
+    //     title:'Food Delivery UI/UX',
+    //     type:'ui/ux',
+    //     desc:"App Build using React native and compaitable for Android and IOS",
+    //     imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png"
+    // },
 ]
 
 export const CompanyImage=[

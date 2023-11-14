@@ -8,7 +8,6 @@ const Portfolio = () => {
     const [portfolioListOrg,setPortfolioListOrg]=useState([]);
 
     useEffect(()=>{
-        
         setPortfolioList(portfolio);
         setPortfolioListOrg(portfolio)
     },[])
@@ -23,6 +22,10 @@ const Portfolio = () => {
            console.log(result) 
         }
     }
+
+    const handleItemClick = (url) => {
+        window.open(url, '_blank');
+    };
   return (
     <div className='mt-5 flex justify-center flex-col'>
         <div className='flex flex-row px-6 md:px-0 items-center justify-center'>
@@ -31,7 +34,7 @@ const Portfolio = () => {
         <SectionHeading firstTitle={AppText.Creative} secondTitle={AppText.Portfolio} />
         <img src={robo} className="w-[70px] ml-5 animate-bounce"/>
         </div>
-        <div className='flex flex-row justify-evenly gap-2 px-4 md:px-72'>
+        {/* <div className='flex flex-row justify-evenly gap-2 px-4 md:px-72'>
             <button onClick={()=>filterPortfolio('All')} className='border-purple-600 border-2 
             text-purple-600 focus:text-white
             active:bg-purple-500 p-1 px-4 rounded-md
@@ -48,16 +51,17 @@ const Portfolio = () => {
             text-purple-600 focus:text-white
             active:bg-purple-500 p-1 px-4 rounded-md
             focus:ring-violet-300 focus:bg-purple-600 focus:ring '>Mobile App</button>
-        </div>
+        </div> */}
         <div className='grid grid-cols-2 items-center content-center md:grid-cols-3 lg:grid-cols-3
         md:px-24 lg:px-48 p-4 '>
             {portfolioList.map((item,index)=>(
-                <div className='p-2 flex flex-col m-2 rounded-lg bg-purple-100
-                transition-all ease-in-out group hover:scale-110'>
+                <div key={index} className='p-2 flex flex-col m-2 rounded-lg bg-purple-100
+                transition-all ease-in-out group hover:scale-110 cursor-pointer'
+                onClick={() => handleItemClick(item.websiteUrl)}
+                >
                     <img src={item.imageUrl} className="h-[180px] object-cover rounded-lg"/>
-                    <h1 className='text-[14px] group-hover:scale-110 mt-2 text-center  font-bold'>{item.title}</h1>
+                    <h1 className='text-[14px] group-hover:scale-110 mt-2 text-center font-bold'>{item.title}</h1>
                     <h1 className='text-[12px] text-gray-500 px-6 pb-3'>{item.desc}</h1>
-
                 </div>
             ))}
         </div>

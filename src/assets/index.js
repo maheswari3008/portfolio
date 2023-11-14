@@ -27,7 +27,10 @@ import facebook from './Facebook.png'
 import linkdin from './LinkedIn.png'
 import tailwind from './tailwind.png'
 import antd from './antd.png'
+import next from './next.png'
+import vite from './vite'
 import javascript from './javascript.png'
+import bootstrap from './bootstrap.png'
 
 export {
     logo,cookiesLogo,praxioLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
@@ -47,5 +50,8 @@ export {
     robo,
     tailwind,
     antd,
-    javascript
+    vite,
+    next,
+    javascript,
+    bootstrap
 }
