@@ -12,7 +12,7 @@ const AboutMe = () => {
           <img src={laptop} className="w-[150px] md:w-[300px] mt-[-100px] " />
         </div>
         <h1 className='text-white text-[50px] pt-[20px] font-bold text-center'>About <span className='text-black'>Me</span></h1>
-        <h2 className='w-full px-10 md:px-48 lg:px-80 my-auto text-white'>{AppText.aboutMeDescripion}</h2>
+        <h2 className='w-full px-10 md:px-48 lg:px-80 lg:mt-8 text-white'>{AppText.aboutMeDescripion}</h2>
       </div>
       {/* <div className='flex flex-col md:flex-row mt-[-75px] md:px-32 '>
         {

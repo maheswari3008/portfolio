@@ -97,7 +97,7 @@ export const workDetail=[
 export const portfolio=[
     {
         id:1,
-        title:'Food Delivery App',
+        title:'Food App',
         type:'ui/ux',
         // desc:"App Build using React and compaitable for Android and IOS",
         imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300",

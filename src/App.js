@@ -11,22 +11,13 @@ import Skills from './Components/Skills';
 function App() {
   return (
     <div className="App">
-      {/* NavBar */}
       <NavBar/>
-      {/* Home */}
       <Home/>
-      {/* About Me */}
       <AboutMe/>
-      {/* Skills */}
       <Skills/>
-      {/* Portfolio */}
       <Portfolio/>
-
-      {/* Companies */}
       <Companies/>
-      {/* Contact Us */}
       <ContactUs/>
-
       <Footer/>
     </div>
   );
