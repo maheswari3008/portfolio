@@ -1,5 +1,5 @@
 import {cookiesLogo, facebook, instagram, linkdin, nodejs, antd, vite, bootstrap,
-      react, typescript, praxioLogo, javascript, youtube, tailwind, next } from "../assets"
+      react, typescript, praxio, javascript, youtube, tailwind, next } from "../assets"
 
 export const AppText={
     hello:'Hello,',
@@ -11,8 +11,8 @@ export const AppText={
     UIUXDesigner:'UI/UX Designer',
     BackendDeveloper:'Backend Dev',
     FrontedDeveloper:'Frontend Dev',
-    Portfolio:'Portfolio',
-    Creative:'My Creative ',
+    Portfolio:'Projects',
+    Creative:'My ',
     CompaniesI:'Companies I ',
     WorkedFor:'Worked For',
     Contact:'Contact ',
@@ -98,7 +98,7 @@ export const portfolio=[
     {
         id:1,
         title:'Food App',
-        type:'ui/ux',
+        type:'',
         // desc:"App Build using React and compaitable for Android and IOS",
         imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300",
         websiteUrl: "https://master--glowing-sherbet-115203.netlify.app/"
@@ -113,18 +113,18 @@ export const portfolio=[
     {
         id:2,
         title:'Furniture App',
-        type:'mobile',
+        type:'',
         // desc:"App Build using javascript and compaitable for Android and IOS",
         imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVUSl7_VOLnGiazw2zKmxxMg6F2Dz5PsX38otgTXnU5a6l5bXiVoHfdeznHhxGEq4P1Ik&usqp=CAU",
         websiteUrl: "https://maheswari3008.github.io/e-com-furniture/",
     },
-    // {
-    //     id:3,
-    //     title:'Food Delivery UI/UX',
-    //     type:'ui/ux',
-    //     desc:"App Build using React native and compaitable for Android and IOS",
-    //     imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png"
-    // },
+    {
+        id:3,
+        title:'Car App',
+        type:'mo',
+        // desc:"App Build using React native and compaitable for Android and IOS",
+        imageUrl:"https://www.revv.co.in/blogs/wp-content/uploads/2021/05/used-cars-for-first-time-drivers-800x445.jpg"
+    },
 ]
 
 export const CompanyImage=[
@@ -134,7 +134,7 @@ export const CompanyImage=[
     },
     {
         id:1,
-        imageUrl:praxioLogo
+        imageUrl:praxio
     },
 ]
 

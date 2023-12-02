@@ -17,7 +17,7 @@ import react from './react.png'
 import wave from './wave.svg'
 import robo from './robo.png'
 import cookiesLogo from './cookiesLogo.png'
-import praxioLogo from './praxioLogo.png'
+import praxio from './praxio.svg'
 import wiuLogo from './wiu.png'
 import contactusbg from './contactusbg.png'
 import phone from './phone.png'
@@ -33,7 +33,7 @@ import javascript from './javascript.png'
 import bootstrap from './bootstrap.png'
 
 export {
-    logo,cookiesLogo,praxioLogo,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
+    logo,cookiesLogo,praxio,nodejs,contactusbg,phone,youtube,instagram,facebook,linkdin,
     homeImage,wiuLogo,
     book,
     laptop,
